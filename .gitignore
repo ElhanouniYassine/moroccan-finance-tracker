@@ -1,0 +1,25 @@
+node_modules/
+.expo/
+dist/
+build/
+.env
+.env.local
+
+# Android / iOS
+android/
+ios/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Spring Boot later
+target/
+.gradle/
+build/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
