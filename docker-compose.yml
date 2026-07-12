@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: flousi_postgres
+    environment:
+      POSTGRES_DB: flousi_db
+      POSTGRES_USER: flousi
+      POSTGRES_PASSWORD: flousi_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - flousi_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  flousi_postgres_data:
